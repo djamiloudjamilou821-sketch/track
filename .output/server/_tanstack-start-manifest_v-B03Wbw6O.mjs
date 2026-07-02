@@ -1,0 +1,74 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-B03Wbw6O.js
+var tsrStartManifest = () => ({ routes: {
+	__root__: {
+		filePath: "C:/Users/hp/Documents/track/src/routes/__root.tsx",
+		children: [
+			"/",
+			"/_authenticated",
+			"/auth"
+		],
+		preloads: ["/assets/index-C5tpMX21.js", "/assets/client-DLqkecsJ.js"],
+		scripts: [{ attrs: {
+			type: "module",
+			async: !0,
+			src: "/assets/index-C5tpMX21.js"
+		} }]
+	},
+	"/_authenticated": {
+		filePath: "C:/Users/hp/Documents/track/src/routes/_authenticated/route.tsx",
+		children: [
+			"/_authenticated/budgets",
+			"/_authenticated/dashboard",
+			"/_authenticated/settings",
+			"/_authenticated/transactions"
+		],
+		preloads: [
+			"/assets/route-DpMsdGE2.js",
+			"/assets/useQuery-mLZ-IYHR.js",
+			"/assets/useMutation-B_3GzZLV.js",
+			"/assets/utils-B9URw_CD.js",
+			"/assets/input-Cte_COnD.js",
+			"/assets/createLucideIcon-BZbKAH3F.js",
+			"/assets/es2015-UDJ5apKm.js",
+			"/assets/button-0BoXcmCh.js",
+			"/assets/label-D618zwMG.js"
+		]
+	},
+	"/auth": {
+		filePath: "C:/Users/hp/Documents/track/src/routes/auth.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/auth-Dc8m1HS8.js",
+			"/assets/input-Cte_COnD.js",
+			"/assets/createLucideIcon-BZbKAH3F.js",
+			"/assets/button-0BoXcmCh.js",
+			"/assets/label-D618zwMG.js"
+		]
+	},
+	"/_authenticated/budgets": {
+		filePath: "C:/Users/hp/Documents/track/src/routes/_authenticated/budgets.tsx",
+		children: void 0,
+		preloads: ["/assets/budgets-cDvKwDnq.js", "/assets/money-BiWbYi5Q.js"]
+	},
+	"/_authenticated/dashboard": {
+		filePath: "C:/Users/hp/Documents/track/src/routes/_authenticated/dashboard.tsx",
+		children: void 0,
+		preloads: [
+			"/assets/dashboard-BdB9LV_p.js",
+			"/assets/money-BiWbYi5Q.js",
+			"/assets/clsx-CjueKrWZ.js"
+		]
+	},
+	"/_authenticated/settings": {
+		filePath: "C:/Users/hp/Documents/track/src/routes/_authenticated/settings.tsx",
+		children: void 0,
+		preloads: ["/assets/settings-C_234-0f.js"]
+	},
+	"/_authenticated/transactions": {
+		filePath: "C:/Users/hp/Documents/track/src/routes/_authenticated/transactions.tsx",
+		children: void 0,
+		preloads: ["/assets/transactions-CR-IMPyB.js", "/assets/money-BiWbYi5Q.js"]
+	}
+} });
+//#endregion
+export { tsrStartManifest };
